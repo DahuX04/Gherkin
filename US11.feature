@@ -11,7 +11,6 @@ Feature: US11 - Colocar el precio del inmueble
     And permita la conversión de la moneda a las tarifas del mercado
     Then se cambiará la moneda y se añadirán las tarifas de cambio en la publicación
 
-
   Scenario: E2: Colocar el precio
     Given el usuario arrendador se encuentra en la opción de ingresar el precio
     When el usuario de click en el textbox de "ingrese monto"

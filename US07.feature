@@ -10,7 +10,6 @@ Feature: US07 - Búsqueda de publicaciones
     When el arrendatario ingrese los datos de búsqueda y le a "Buscar"
     Then le muestra una pestaña con diferentes publicaciones con respecto a su búsqueda
 
-
   Scenario: E2: El usuario aplica filtros en su búsqueda
     Given el arrendatario se encuentra en la barra de búsqueda
     When el arrendatario le ingrese al apartado de "Filtros"
